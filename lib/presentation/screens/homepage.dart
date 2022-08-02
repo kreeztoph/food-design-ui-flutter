@@ -415,215 +415,224 @@ class _HomePageState extends State<HomePage> {
                     VerticalDivider(
                       width: _screensize.width / 20,
                     ),
-                    Container(
-                      width: _screensize.width / 2.3,
-                      height: _screensize.height / 2.7,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(20),
-                        border: Border.all(color: Colors.red),
-                        color: Colors.white,
-                      ),
-                      child: Column(children: [
-                        Image.asset(
-                          'assets/food2.jpg',
-                          height: _screensize.height / 5,
-                          width: _screensize.width / 2,
+                    InkWell(
+                      onTap: () {},
+                      child: Container(
+                        width: _screensize.width / 2.3,
+                        height: _screensize.height / 2.7,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(color: Colors.red),
+                          color: Colors.white,
                         ),
-                        SizedBox(
-                          height: _screensize.height / 40,
-                        ),
-                        Text(
-                          'Egg Pasta Sauce',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16,
+                        child: Column(children: [
+                          Image.asset(
+                            'assets/food2.jpg',
+                            height: _screensize.height / 5,
+                            width: _screensize.width / 2,
                           ),
-                        ),
-                        SizedBox(
-                          height: _screensize.height / 200,
-                        ),
-                        Text(
-                          'Spicy meal with egg',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: Colors.grey,
+                          SizedBox(
+                            height: _screensize.height / 40,
                           ),
-                        ),
-                        SizedBox(
-                          height: _screensize.height / 200,
-                        ),
-                        Text(
-                          '${Emojis.fire} 56 Calories',
-                          style: TextStyle(
-                              color: Colors.red, fontWeight: FontWeight.bold),
-                        ),
-                        SizedBox(
-                          height: _screensize.height / 200,
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Align(
-                              alignment: Alignment.bottomCenter,
-                              child: Text(
-                                "\$",
-                                style: TextStyle(
-                                  color: Colors.red,
+                          Text(
+                            'Chicken spicy soup',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+                          SizedBox(
+                            height: _screensize.height / 200,
+                          ),
+                          Text(
+                            'Soup with chicken',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey,
+                            ),
+                          ),
+                          SizedBox(
+                            height: _screensize.height / 200,
+                          ),
+                          Text(
+                            '${Emojis.fire} 93 Calories',
+                            style: TextStyle(
+                                color: Colors.red, fontWeight: FontWeight.bold),
+                          ),
+                          SizedBox(
+                            height: _screensize.height / 200,
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  "\$",
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                  ),
                                 ),
                               ),
-                            ),
-                            Text(
-                              '9.59',
-                              style: TextStyle(
-                                fontSize: 30,
-                                fontWeight: FontWeight.bold,
+                              Text(
+                                '12.83',
+                                style: TextStyle(
+                                  fontSize: 30,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                            ),
-                          ],
-                        )
-                      ]),
+                            ],
+                          )
+                        ]),
+                      ),
                     ),
                     VerticalDivider(
                       width: _screensize.width / 20,
                     ),
-                    Container(
-                      width: _screensize.width / 2.3,
-                      height: _screensize.height / 2.7,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(20),
-                        border: Border.all(color: Colors.red),
-                        color: Colors.white,
-                      ),
-                      child: Column(children: [
-                        Image.asset(
-                          'assets/food1.jpg',
-                          height: _screensize.height / 5,
-                          width: _screensize.width / 2,
+                    InkWell(
+                      onTap: () {},
+                      child: Container(
+                        width: _screensize.width / 2.3,
+                        height: _screensize.height / 2.7,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(color: Colors.red),
+                          color: Colors.white,
                         ),
-                        SizedBox(
-                          height: _screensize.height / 40,
-                        ),
-                        Text(
-                          'Egg Pasta Sauce',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16,
+                        child: Column(children: [
+                          Image.asset(
+                            'assets/food3.jpg',
+                            height: _screensize.height / 5,
+                            width: _screensize.width / 2,
                           ),
-                        ),
-                        SizedBox(
-                          height: _screensize.height / 200,
-                        ),
-                        Text(
-                          'Spicy meal with egg',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: Colors.grey,
+                          SizedBox(
+                            height: _screensize.height / 40,
                           ),
-                        ),
-                        SizedBox(
-                          height: _screensize.height / 200,
-                        ),
-                        Text(
-                          '${Emojis.fire} 56 Calories',
-                          style: TextStyle(
-                              color: Colors.red, fontWeight: FontWeight.bold),
-                        ),
-                        SizedBox(
-                          height: _screensize.height / 200,
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Align(
-                              alignment: Alignment.bottomCenter,
-                              child: Text(
-                                "\$",
-                                style: TextStyle(
-                                  color: Colors.red,
+                          Text(
+                            'Steak Pasta Sauce',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+                          SizedBox(
+                            height: _screensize.height / 200,
+                          ),
+                          Text(
+                            'Home meal with Steak',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey,
+                            ),
+                          ),
+                          SizedBox(
+                            height: _screensize.height / 200,
+                          ),
+                          Text(
+                            '${Emojis.fire} 104 Calories',
+                            style: TextStyle(
+                                color: Colors.red, fontWeight: FontWeight.bold),
+                          ),
+                          SizedBox(
+                            height: _screensize.height / 200,
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  "\$",
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                  ),
                                 ),
                               ),
-                            ),
-                            Text(
-                              '9.59',
-                              style: TextStyle(
-                                fontSize: 30,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            )
-                          ],
-                        )
-                      ]),
+                              Text(
+                                '20.83',
+                                style: TextStyle(
+                                  fontSize: 30,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          )
+                        ]),
+                      ),
                     ),
                     VerticalDivider(
                       width: _screensize.width / 20,
                     ),
-                    Container(
-                      width: _screensize.width / 2.3,
-                      height: _screensize.height / 2.7,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(20),
-                        border: Border.all(color: Colors.red),
-                        color: Colors.white,
-                      ),
-                      child: Column(children: [
-                        Image.asset(
-                          'assets/food2.jpg',
-                          height: _screensize.height / 5,
-                          width: _screensize.width / 2,
+                    InkWell(
+                      onTap: () {},
+                      child: Container(
+                        width: _screensize.width / 2.3,
+                        height: _screensize.height / 2.7,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(color: Colors.red),
+                          color: Colors.white,
                         ),
-                        SizedBox(
-                          height: _screensize.height / 40,
-                        ),
-                        Text(
-                          'Egg Pasta Sauce',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16,
+                        child: Column(children: [
+                          Image.asset(
+                            'assets/food4.jpg',
+                            height: _screensize.height / 5,
+                            width: _screensize.width / 2,
                           ),
-                        ),
-                        SizedBox(
-                          height: _screensize.height / 200,
-                        ),
-                        Text(
-                          'Spicy meal with egg',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: Colors.grey,
+                          SizedBox(
+                            height: _screensize.height / 40,
                           ),
-                        ),
-                        SizedBox(
-                          height: _screensize.height / 200,
-                        ),
-                        Text(
-                          '${Emojis.fire} 56 Calories',
-                          style: TextStyle(
-                              color: Colors.red, fontWeight: FontWeight.bold),
-                        ),
-                        SizedBox(
-                          height: _screensize.height / 200,
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Align(
-                              alignment: Alignment.bottomCenter,
-                              child: Text(
-                                "\$",
-                                style: TextStyle(
-                                  color: Colors.red,
+                          Text(
+                            'Veggie piece',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+                          SizedBox(
+                            height: _screensize.height / 200,
+                          ),
+                          Text(
+                            'Vegetarian style',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey,
+                            ),
+                          ),
+                          SizedBox(
+                            height: _screensize.height / 200,
+                          ),
+                          Text(
+                            '${Emojis.fire} 45 Calories',
+                            style: TextStyle(
+                                color: Colors.red, fontWeight: FontWeight.bold),
+                          ),
+                          SizedBox(
+                            height: _screensize.height / 200,
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  "\$",
+                                  style: TextStyle(
+                                    color: Colors.red,
+                                  ),
                                 ),
                               ),
-                            ),
-                            Text(
-                              '9.59',
-                              style: TextStyle(
-                                fontSize: 30,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            )
-                          ],
-                        )
-                      ]),
+                              Text(
+                                '16.05',
+                                style: TextStyle(
+                                  fontSize: 30,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                            ],
+                          )
+                        ]),
+                      ),
                     ),
                   ],
                 ),
